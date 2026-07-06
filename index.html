@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maplight вАФ Reveal the city</title>
+<meta name="description" content="Maplight turns an ordinary walk into exploration. Your city is hidden under fog вАФ walk to reveal it.">
+<style>
+:root{--navy:#070b20;--navy2:#173a72;--teal:#2ad9bd;--teal2:#5cf6da;--ink:#eafffb}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:radial-gradient(120% 90% at 50% 0%,var(--navy2),var(--navy) 70%);color:var(--ink);min-height:100vh;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:64px 24px}
+.logo{display:flex;align-items:center;gap:14px;margin-bottom:48px}
+.dot{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 40% 35%,var(--teal2),var(--teal) 60%,rgba(42,217,189,.15));box-shadow:0 0 34px rgba(42,217,189,.55)}
+.logo b{font-size:26px;font-weight:600;letter-spacing:.3px}
+h1{font-size:clamp(30px,6vw,44px);font-weight:700;line-height:1.15;margin-bottom:16px}
+h1 span{color:var(--teal2)}
+.lead{font-size:18px;color:rgba(234,255,251,.82);max-width:56ch;margin-bottom:36px}
+ul.feats{list-style:none;display:grid;gap:12px;margin-bottom:44px}
+ul.feats li{padding:14px 18px;background:rgba(234,255,251,.05);border:1px solid rgba(234,255,251,.10);border-radius:14px;font-size:15.5px}
+ul.feats li b{color:var(--teal2);font-weight:600}
+.cta{display:inline-block;background:var(--teal);color:#04241d;font-weight:600;padding:14px 26px;border-radius:999px;text-decoration:none;font-size:16px}
+.cta.soon{opacity:.75;pointer-events:none}
+h2{font-size:20px;font-weight:600;margin:56px 0 12px}
+.muted{color:rgba(234,255,251,.62);font-size:15px}
+a{color:var(--teal2)}
+footer{margin-top:64px;padding-top:24px;border-top:1px solid rgba(234,255,251,.12);font-size:14px;color:rgba(234,255,251,.55);display:flex;gap:18px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo"><div class="dot"></div><b>Maplight</b></div>
+
+  <h1>The city is hidden under fog.<br><span>Walk to reveal it.</span></h1>
+  <p class="lead">Maplight turns an ordinary walk into exploration. Streets appear on the map only where you've actually been вАФ the more you walk, the more of your city you uncover.</p>
+
+  <a class="cta soon" href="#">Coming soon to the App&nbsp;Store</a>
+
+  <ul class="feats" style="margin-top:44px">
+    <li><b>Fog of war</b> for a real city вАФ reveal streets with your steps</li>
+    <li><b>Background recording</b> вАФ even with the screen off</li>
+    <li><b>Live Activity &amp; widget</b> вАФ start and stop from the Lock Screen</li>
+    <li><b>Pins with notes and photos</b> вАФ mark favourite places</li>
+    <li><b>Stats, streaks, weekly goals</b> and district progress</li>
+    <li><b>Private by design</b> вАФ data stays on your device and your iCloud</li>
+  </ul>
+
+  <h2 id="support">Support</h2>
+  <p class="muted">Questions, ideas or something broken? Write to us вАФ we read everything:<br>
+  <a href="mailto:hokagekrutik@gmail.com">hokagekrutik@gmail.com</a></p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <span>¬© 2026 Maplight</span>
+  </footer>
+</div>
+</body>
+</html>
